@@ -4,14 +4,14 @@ Congrats! You deiced to take the challenge and take another step in your program
 
 ## Assignment
 
-You are tasked with creating a weather CLI tool that fetches the current temperature for a given city.
+Your task is to implement `weather.py` - a small CLI tool that prints the current temperature of a city.
 
 ## Instructions
 
 Fork this repository **as a private repo** and implement the code in the `weather.py` file. When you are finished, push your changes, keep the repo private, and send us:
 
-1. the GitHub URL
-2. a Loom showing:
+1. The GitHub URL. Share the repository with mcxemic@gmail.com
+2. Loom with:
    1. Happy path: printing a temperature for a given city
    2. The proper error message in case of an error
    3. A short explanation of one design decision you are proud of
@@ -20,8 +20,15 @@ Fork this repository **as a private repo** and implement the code in the `weathe
 
 ## Requirements
 
-1. Write a Python script that fetches the current temperature for a given city.
-2. In case of an error, the script should exit with a proper error message.
-3. All supplied tests **must pass**. If a test is wrong, fix it. not your logic 😉
+1. The script should accept exactly one positional argument - the city name.
+2. The script should fetch the current temperature for the given city.
+3. In case of an error, the script should exit with a proper error message.
+4. All supplied tests **must pass**. If a test is wrong, fix it. not your logic 😉
+5. Update README.md with tools you used to complete the assignment:
+
+Tool | Purpose
+--- | ---
+PyTest documentation | Check how to run tests locally
+ChatGPT | Copy paste the whole block without any changes
 
 Good luck & have fun!
