@@ -7,7 +7,7 @@ class WttrWeatherAPI:
     BASE_URL = "https://wttr.in/"
 
     def get_weather(self, city: str) -> str:
-        url = f"{self.BASE_URL}{city}?format=%t"
+        url = f"{self.BASE_URL}{city}?m&format=%t"
         try:
             response = requests.get(url)
             response.raise_for_status()
